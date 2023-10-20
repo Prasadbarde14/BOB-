@@ -1,0 +1,104 @@
+header {
+    display: flex;
+    height: 30px;
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 25px;
+  }
+  #header_left_part {
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 24px;
+  }
+  .typography1 {
+    color: var(--neutral-colours-grey-300, #9ca3af);
+    font-family: Plus Jakarta Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 30px;
+  }
+  #header_right_part {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    max-width: calc(100% - 302px);
+    min-width: 300px;
+    height: 100%;
+    flex-shrink: 0;
+    margin-left: auto;
+  }
+  #filters {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    overflow-x: scroll;
+  }
+  #filters::-webkit-scrollbar {
+    display: none;
+  }
+  .project_type {
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    margin-right: 5px;
+    font-family: Plus Jakarta Sans;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0px;
+    text-align: center;
+    padding: 2px 6px 2px 6px;
+    color: #ffffff;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    white-space: nowrap;
+    max-width: 100px;
+    min-width: 50px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  #remaining {
+    font-family: Plus Jakarta Sans;
+  
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: #ffffff;
+    background: #626262;
+  }
+  #more {
+    font-family: Plus Jakarta Sans;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: #424750;
+  
+    background: var(--neutral-colours-grey-50, #f3f3f3);
+  }
+  #sort_container,
+  #search_container {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    margin-right: 15px;
+  }
+  .typography2 {
+    color: #1d3159;
+    text-align: right;
+    width: 50px;
+    height: 30px;
+    font-family: Plus Jakarta Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    margin-right: 10px;
+  }

@@ -1,0 +1,228 @@
+.heading {
+    position: sticky;
+    top: 0px;
+  padding: 0px 10px 0px 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 311px;
+  height: 32px;
+  flex-shrink: 0;
+  border-bottom: 1px solid #eaeaea;
+  background: #fff;
+}
+.heading p {
+  margin: 0%;
+}
+.process {
+  width: 280px;
+  height: 54px;
+  flex-shrink: 0;
+  margin: 16px;
+}
+label {
+  color: #4a5a70;
+
+  /* T1 400/Base */
+  font-family: Plus Jakarta Sans;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px; /* 133.333% */
+}
+.input_Container {
+  display: flex;
+  width: 280px;
+  height: 32px;
+  padding-left: 10px;
+  justify-content: space-between;
+  align-items: center;
+  flex-shrink: 0;
+}
+.process_input {
+  width: 253.289px;
+  border: none;
+  color: var(--neutral-colours-grey-900, #2f3238);
+  /* T1 400/Base */
+  font-family: Plus Jakarta Sans;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px; /* 133.333% */
+}
+.parameters1 {
+  margin-top: 50px;
+  margin-left: 16px;
+  display: flex;
+  justify-content: space-between;
+  width: 211px;
+  height: 16px;
+  flex-shrink: 0;
+}
+.parameters1 p {
+  color: var(--bg-text, #2c2c2c);
+
+  /* T1 400/Base */
+  font-family: Plus Jakarta Sans;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px; /* 133.333% */
+}
+.parameters1 p span {
+  margin-right: 3px;
+  width: 16px;
+  height: 16px;
+  flex-shrink: 0;
+}
+.endpoints {
+  display: flex;
+  justify-content: space-between;
+  margin: 16px;
+  // width: 280px;
+  height: 20px;
+  flex-shrink: 0;
+}
+.rest_calls {
+  width: 280px;
+  height: 170px;
+  margin: 9px 16px 16px 16px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.post_call,
+.get_call,
+.put_call,
+.delete_call {
+  width: 136px;
+  height: 81px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  border: 1px solid #eaeaea;
+  background: #fff;
+}
+.rest_symbol{
+    width: 24px;
+height: 24px;
+flex-shrink: 0;
+position: relative;
+left: 28px;
+top: 15px;
+}
+.rest_count{
+    display: inline;
+    position: relative;
+    left: 40px;
+    top: 20px;
+color: #000;
+
+/* T1 400/xl 2 */
+font-family: Plus Jakarta Sans;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px; /* 125% */
+}
+.rest_type{
+    
+width: 117px;
+height: 20px;
+display: inline-block;
+    position: relative;
+    top: 23px;
+    margin-left: 9px;
+color: #000;
+text-align: center;
+
+/* T1 400/Base */
+font-family: Plus Jakarta Sans;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 16px; /* 133.333% */
+}
+.endpoints p{
+    color: var(--bg-text, #2C2C2C);
+
+/* T1 400/L2 */
+font-family: Plus Jakarta Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 20px; /* 125% */
+}
+.parameters2{
+    margin: 16px;
+  display: flex;
+  justify-content: space-between;
+  width: 280px;
+  height: 16px;
+  flex-shrink: 0;
+}
+.parameters2 p {
+    color: var(--bg-text, #2c2c2c);
+  
+    /* T1 400/Base */
+    font-family: Plus Jakarta Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px; /* 133.333% */
+  }
+  .parameters2 p span {
+    margin-right: 4px;
+    width: 16px;
+    height: 16px;
+    flex-shrink: 0;
+  }
+  .analysis{
+    display: flex;
+    flex-direction: row;
+    margin: 0px 16px 18px 16px;
+    justify-content: space-between;
+    width: 280px;
+height: 32px;
+flex-shrink: 0;
+  }
+  .analysis section{
+    width: 88px;
+height: 32px;
+flex-shrink: 0;
+  }
+  .analysis section p{
+    color: var(--bg-text, #2C2C2C);
+
+/* T1 400/Base */
+font-family: Plus Jakarta Sans;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: 16px; /* 133.333% */
+  }
+  .property_analysis{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 0px 8px;
+    padding: 6px 8px 6px 11px;
+    width: 296px;
+height: 116px;
+flex-shrink: 0;
+border-radius: 8px;
+background: #fffbe6;
+  }
+  .property_analysis div p{
+    color: var(--neutral-colours-grey-900, #2F3238);
+text-align: center;
+
+/* T2 600/Base */
+font-family: Plus Jakarta Sans;
+font-size: 12px;
+font-style: normal;
+font-weight: 600;
+line-height: 16px; /* 133.333% */
+  }

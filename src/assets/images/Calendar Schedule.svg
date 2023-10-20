@@ -1,0 +1,17 @@
+<svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Calendar Schedule" clip-path="url(#clip0_2582_190050)">
+<g id="calendar-schedule--calendar-date-day-month-time-clock-schedule">
+<path id="Vector" d="M1.71317 2.28516C1.41007 2.28516 1.11937 2.40556 0.905048 2.61989C0.69072 2.83422 0.570313 3.12491 0.570312 3.42801V14.2852C0.570313 14.5883 0.69072 14.879 0.905048 15.0933C1.11937 15.3076 1.41007 15.428 1.71317 15.428H14.2846C14.5877 15.428 14.8784 15.3076 15.0927 15.0933C15.307 14.879 15.4275 14.5883 15.4275 14.2852V3.42801C15.4275 3.12491 15.307 2.83422 15.0927 2.61989C14.8784 2.40556 14.5877 2.28516 14.2846 2.28516H11.9989" stroke="#2C2C2C" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_2" d="M3.99805 0.570312V3.99888" stroke="#2C2C2C" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_3" d="M11.998 0.570312V3.99888" stroke="#2C2C2C" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_4" d="M4 2.28516H9.71429" stroke="#2C2C2C" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_5" d="M7.99888 12.572C8.9082 12.572 9.78027 12.2108 10.4233 11.5678C11.0662 10.9248 11.4275 10.0527 11.4275 9.14341C11.4275 8.2341 11.0662 7.36203 10.4233 6.71905C9.78027 6.07607 8.9082 5.71484 7.99888 5.71484C7.08957 5.71484 6.2175 6.07607 5.57452 6.71905C4.93154 7.36203 4.57031 8.2341 4.57031 9.14341C4.57031 10.0527 4.93154 10.9248 5.57452 11.5678C6.2175 12.2108 7.08957 12.572 7.99888 12.572Z" stroke="#2C2C2C" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_6" d="M8 8V9.42857L9.14286 9.71429" stroke="#2C2C2C" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+<defs>
+<clipPath id="clip0_2582_190050">
+<rect width="16" height="16" fill="white"/>
+</clipPath>
+</defs>
+</svg>

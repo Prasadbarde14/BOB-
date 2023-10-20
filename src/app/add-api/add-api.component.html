@@ -1,0 +1,115 @@
+<div class="heading">
+  <p>Add API</p>
+  <div>
+    <img
+      src="../../assets/images/target.svg"
+      alt="target"
+      style="margin-right: 5px"
+    />
+    <img src="../../assets/images/Interface Search.svg" alt="Search" />
+  </div>
+</div>
+
+<div *ngIf="privateURL">
+    <div class="toggle_btns">
+  <button class="private_button" >Private URL</button>
+  <button class="github_button" (click)="toggle_private()">Github</button>
+</div>
+  <div class="process">
+    <label for="key">URL</label>
+    <div class="input_Container">
+      <input class="input_field" type="text" name="url" placeholder="URL" />
+      <img src="../../assets/images/vertical-line.svg" alt="heighlighter" />
+    </div>
+  </div>
+  <div class="process">
+    <label for="key">Key</label>
+    <div class="input_Container">
+      <input class="input_field" type="text" name="key" placeholder="key" />
+      <img src="../../assets/images/vertical-line.svg" alt="heighlighter" />
+    </div>
+  </div>
+  <div class="process">
+    <label for="username">Username</label>
+    <div class="input_Container">
+      <input
+        class="input_field"
+        type="text"
+        name="username"
+        placeholder="Username"
+      />
+      <img src="../../assets/images/vertical-line.svg" alt="heighlighter" />
+    </div>
+  </div>
+  <div class="process">
+    <label for="password">Password</label>
+    <div class="input_Container">
+      <input
+        class="input_field"
+        type="text"
+        name="password"
+        placeholder="Password"
+      />
+      <img src="../../assets/images/vertical-line.svg" alt="heighlighter" />
+    </div>
+  </div>
+  <div class="process">
+    <label for="script">Script</label>
+    <div class="input_Container" style="height: 86px">
+      <textarea
+        name="script"
+        class="input_field"
+        style="height: 86px"
+        cols="30"
+        rows="10"
+        placeholder="Script comes here"
+      ></textarea>
+    </div>
+  </div>
+</div>
+
+<!-- ----------------------------for github section---------------------------- -->
+
+<div *ngIf="github" >
+  <div class="toggle_btns">
+    <button class="github_button" (click)="toggle_github()">Private URL</button>
+    <button class="private_button">Github</button>
+  </div>
+  <div class="process">
+    <label for="key">URL</label>
+    <div class="input_Container">
+      <input class="input_field" type="text" name="url" placeholder="URL" />
+      <img src="../../assets/images/vertical-line.svg" alt="heighlighter" />
+    </div>
+  </div>
+  <p class="routing-link"><a href="">Click here</a> to open Repo and select</p>
+  <div class="process">
+    <label for="branch">Branch</label>
+    <div class="input_Container">
+      <input
+        class="input_field"
+        type="text"
+        name="branch"
+        placeholder="Enter Branch Description"
+      />
+      <img src="../../assets/images/vertical-line.svg" alt="heighlighter" />
+    </div>
+  </div>
+  <div class="process">
+    <label for="connector">Connector</label>
+    <div class="input_Container">
+      <input
+        class="input_field"
+        type="text"
+        name="connector"
+        placeholder="Enter Connector Value"
+      />
+      <img src="../../assets/images/vertical-line.svg" alt="heighlighter" />
+    </div>
+  </div>
+</div>
+
+<div class="action_btns">
+  <button class="cancel_btn">Cancel</button>
+  <button class="create_btn">Create</button>
+</div>

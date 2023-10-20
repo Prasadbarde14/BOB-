@@ -1,0 +1,8 @@
+<svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Time Hour Glass">
+<path id="Vector" d="M12 3.99688C12 5.05774 11.5786 6.07516 10.8284 6.8253C10.0783 7.57545 9.06087 7.99688 8 7.99688C6.93913 7.99688 5.92172 7.57545 5.17157 6.8253C4.42143 6.07516 4 5.05774 4 3.99688V0.796875H12V3.99688Z" stroke="#2C2C2C" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_2" d="M12 12C12 10.9391 11.5786 9.92172 10.8284 9.17157C10.0783 8.42143 9.06087 8 8 8C6.93913 8 5.92172 8.42143 5.17157 9.17157C4.42143 9.92172 4 10.9391 4 12V15.2H12V12Z" stroke="#2C2C2C" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_3" d="M1.59961 0.796875H14.3996" stroke="#2C2C2C" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_4" d="M1.59961 15.2031H14.3996" stroke="#2C2C2C" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</svg>

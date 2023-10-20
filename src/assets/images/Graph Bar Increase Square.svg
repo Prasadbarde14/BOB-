@@ -1,0 +1,13 @@
+<svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Graph Bar Increase Square" clip-path="url(#clip0_2582_190088)">
+<path id="Vector" d="M0.800781 2.39688C0.800781 1.97253 0.969352 1.56556 1.26941 1.2655C1.56947 0.965446 1.97643 0.796875 2.40078 0.796875H13.6008C14.0251 0.796875 14.4321 0.965446 14.7322 1.2655C15.0322 1.56556 15.2008 1.97253 15.2008 2.39688V13.5969C15.2008 14.0212 15.0322 14.4282 14.7322 14.7282C14.4321 15.0283 14.0251 15.1969 13.6008 15.1969H2.40078C1.97643 15.1969 1.56947 15.0283 1.26941 14.7282C0.969352 14.4282 0.800781 14.0212 0.800781 13.5969V2.39688Z" stroke="#2C2C2C" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_2" d="M11.5508 12.1969V3.79688" stroke="#2C2C2C" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_3" d="M8 12.2004V7.25" stroke="#2C2C2C" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_4" d="M4.44922 12.1992V8.89844" stroke="#2C2C2C" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<defs>
+<clipPath id="clip0_2582_190088">
+<rect width="16" height="16" fill="white"/>
+</clipPath>
+</defs>
+</svg>
